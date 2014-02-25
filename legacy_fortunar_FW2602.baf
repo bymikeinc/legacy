@@ -1,0 +1,44 @@
+// cre_f001: bandit leader fighter Arlo
+IF
+	Global("legacy_cre_f001_exists","FW2602",0)
+THEN
+	RESPONSE #100
+	SetGlobal("legacy_cre_f001_exists","FW2602",1)
+	CreateCreature("cre_f001",[356.342],3)
+END
+
+// cre_f002: bandit fighter Cullen
+IF
+	Global("legacy_cre_f002_exists","FW2602",0)
+THEN
+	RESPONSE #100
+	SetGlobal("legacy_cre_f002_exists","FW2602",1)
+	CreateCreature("cre_f002",[370.291],3)
+END
+
+// cre_f003: bandit
+IF
+	Global("legacy_cre_f003_exists","FW2602",0)
+THEN
+	RESPONSE #100
+	SetGlobal("legacy_cre_f003_exists","FW2602",1)
+	CreateCreature("cre_f003",[420.315],3)
+END
+
+// cre_f004: bandit
+IF
+	Global("legacy_cre_f004_exists","FW2602",0)
+THEN
+	RESPONSE #100
+	SetGlobal("legacy_cre_f004_exists","FW2602",1)
+	CreateCreature("cre_f004",[468.264],3)
+END
+
+// cre_f005: bandit
+IF
+	Global("legacy_cre_f005_exists","FW2602",0)
+THEN
+	RESPONSE #100
+	SetGlobal("legacy_cre_f005_exists","FW2602",1)
+	CreateCreature("cre_f005",[532.268],3)
+END

@@ -1,0 +1,48 @@
+/**
+*	Spawn Fortunar's Bandit Party
+*/
+
+// cre_f001: bandit leader fighter Arlo
+IF
+	Global("bymike_cre_f001_exists","FW2800",0)
+THEN
+	RESPONSE #100
+	SetGlobal("bymike_cre_f001_exists","FW2800",1)
+	CreateCreature("cre_f001",[599.1582],3)
+END
+
+// cre_f002: bandit fighter Cullen
+IF
+	Global("bymike_cre_f002_exists","FW2800",0)
+THEN
+	RESPONSE #100
+	SetGlobal("bymike_cre_f002_exists","FW2800",1)
+	CreateCreature("cre_f002",[661.1551],3)
+END
+
+// cre_f003: bandit cleric Iggy
+IF
+	Global("bymike_cre_f003_exists","FW2800",0)
+THEN
+	RESPONSE #100
+	SetGlobal("bymike_cre_f003_exists","FW2800",1)
+	CreateCreature("cre_f003",[579.1489],3)
+END
+
+// cre_f004: bandit theif Silas
+IF
+	Global("bymike_cre_f004_exists","FW2800",0)
+THEN
+	RESPONSE #100
+	SetGlobal("bymike_cre_f004_exists","FW2800",1)
+	CreateCreature("cre_f004",[504.1508],3)
+END
+
+// cre_f005: bandit swashbuckler Kali
+IF
+	Global("bymike_cre_f005_exists","FW2800",0)
+THEN
+	RESPONSE #100
+	SetGlobal("bymike_cre_f005_exists","FW2800",1)
+	CreateCreature("cre_f005",[680.1434],3)
+END

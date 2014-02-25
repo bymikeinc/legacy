@@ -1,0 +1,7 @@
+IF
+	Global("legacy_Fortunar_exists","FW2616",0)
+THEN
+	RESPONSE #100
+	SetGlobal("legacy_Fortunar_exists","FW2616",1)
+	CreateCreature("fortunar",[311.470],3) 
+END
