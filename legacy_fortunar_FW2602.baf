@@ -1,3 +1,4 @@
+
 // cre_f001: bandit leader fighter Arlo
 IF
 	Global("legacy_cre_f001_exists","FW2602",0)
